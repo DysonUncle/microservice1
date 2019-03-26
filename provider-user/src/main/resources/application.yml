@@ -1,0 +1,10 @@
+server:
+  port: 7900
+spring:
+  application:
+    name: provider-user   #取别名
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:123@localhost:10000/eureka/
